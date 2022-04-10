@@ -1,0 +1,36 @@
+//Flexbox partial for the layout of the website
+//single column article, horizontal navigation, header, and footer
+
+.flexbox {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  @extend .flexbox;
+  background: $almost-black;
+}
+
+header {
+  @extend .flexbox;
+  width: $nine;
+  padding: $no-padding;
+  background: $dark-blue;
+}
+
+article {
+  @extend .flexbox;
+  width: $seven-five;
+  padding: $container-padding;
+  background: $light-green;
+}
+
+footer {
+  @extend .flexbox;
+  width: $nine;
+  padding: $container-padding;
+  height: 10vh;
+  background: $dark-blue;
+}
