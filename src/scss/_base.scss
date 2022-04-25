@@ -34,7 +34,8 @@ h5 {
 
 h6 {
   @extend .headers;
-  font-size: $medium;
+  font-size: $small;
+  font-style: bold;
 }
 
 //paragraph
@@ -43,4 +44,14 @@ p {
   text-align: left;
   font-family: $plain;
   font-size: $small;
+}
+
+a {
+  font-family: $plain;
+  color: $light-green;
+}
+
+a:visited {
+  font-family: $plain;
+  color: $light-green;
 }
